@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ff6b6b, #ff8c00);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #ff4d4d, #ffa500);
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input, .input-group select {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.input-group input:focus {
+    border-color: #ff6b6b;
+    outline: none;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #ffebee;
+}
+
+.bgvideo {
+    margin: 0 50px 0 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 95%;
+    max-width: 95%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -99;
+}
